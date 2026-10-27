@@ -24,17 +24,17 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         purple: {
-          100: "#F4F7FE",
-          200: "#BCB6FF",
-          400: "#868CFF",
-          500: "#7857FF",
-          600: "#4318FF",
+          100: "#F7F5EF", // Warm ivory
+          200: "#B7E4D1", // Soft mint
+          400: "#20A879", // Emerald green
+          500: "#087F5B", // Main brand green
+          600: "#065F46", // Deep green
         },
         dark: {
-          400: "#7986AC",
-          500: "#606C80",
-          600: "#2B3674",
-          700: "#384262",
+          400: "#8A928B",
+          500: "#59645D",
+          600: "#26352D",
+          700: "#202923",
         },
         primary: {
           DEFAULT: "hsl(var(--primary))",
@@ -69,8 +69,8 @@ module.exports = {
         IBMPlex: ["var(--font-ibm-plex)"],
       },
       backgroundImage: {
-        "purple-gradient": "url('/assets/images/gradient-bg.svg')",
-        banner: "url('/assets/images/banner-bg.png')",
+        "purple-gradient": "linear-gradient(135deg, #20A879 0%, #087F5B 100%)",
+        banner: "linear-gradient(135deg, #55C99B 0%, #087F5B 100%)",
       },
       borderRadius: {
         lg: "var(--radius)",
